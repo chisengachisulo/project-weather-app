@@ -22,7 +22,7 @@ li {
 }
 
 li:first-letter {
-  text-transform:capitalize;
+  text-transform: capitalize;
 }
 
 .weather-app {
@@ -61,8 +61,10 @@ li:first-letter {
 .weather-temperature .units {
   position: relative;
   font-size: 16px;
-  top: 4px;
+  top: 1px;
   color: #fff;
+  text-decoration: none; 
+  cursor: pointer;
 }
 
 small {
